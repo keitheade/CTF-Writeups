@@ -61,4 +61,34 @@ Look that up with [www.whois.com]{:www.whois.com}
 
 ![image](https://user-images.githubusercontent.com/36986239/192224067-60bcd5a4-348a-4c27-8872-0d2ca8055fe5.png)
 
-`DUCTF{abuse@telstra.net}
+`DUCTF{abuse@telstra.net}`
+
+### ogres are like onions
+![image](https://user-images.githubusercontent.com/36986239/192225459-be659715-d984-4830-8574-8f378f50d40f.png)
+
+Ok so I have no idea on docker forensics…..
+soo
+google
+ok … lets look at some of the history as the flag is conveniently missing
+![image](https://user-images.githubusercontent.com/36986239/192225534-becd5062-1495-419f-9d25-b073d5d94651.png)
+
+So why is it missing…
+
+![image](https://user-images.githubusercontent.com/36986239/192225584-6bf80435-26f5-428d-81c8-8e8372f1c410.png)
+
+cause they deleted it… nice…
+ok more googling
+There is a thing called Docker-exporer (time to download that https://github.com/google/docker-explorer)
+Lets see all these layers….
+
+![image](https://user-images.githubusercontent.com/36986239/192225839-bf29ae8a-2b2c-48cc-a5f3-9e1788b97e5f.png)
+time to manually look as im not skilled enough to know where to look lol
+![image](https://user-images.githubusercontent.com/36986239/192225888-c15cff10-9b6f-42b9-a767-82e297216ff3.png)
+to save you the time of reading.. .this is the one
+![image](https://user-images.githubusercontent.com/36986239/192225917-822c4073-fe8d-4cfa-ae53-de3e8eccc1b1.png)
+Lets open that bad boi up..
+![image](https://user-images.githubusercontent.com/36986239/192225948-e0ba7e08-4fad-495a-a3f7-61d817a888f8.png)
+
+Sigh… thanks for that….
+`DUCTF{P33L_B4CK_TH3_L4Y3RS}`
+
