@@ -1,11 +1,5 @@
 # CTF-Writeups!
 ----
-
-[TOC]
-
-----
-
-----
 ## OSINT
 ----
 ### Honk Honk
